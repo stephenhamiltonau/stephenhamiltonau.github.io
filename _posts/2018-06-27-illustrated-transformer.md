@@ -15,13 +15,10 @@ title: The Illustrated Transformer
 
 <table>
  <tr>
-  <td>
-   
+  <td style="vertical-align: middle; min-width:250px">
 <a href="https://www.llm-book.com"><img src="https://github.com/user-attachments/assets/a471dfff-00cc-4cb4-8df5-123e195bcc71" width="200" /></a>
   </td>
-  <td>
-   
-**Update:** This post has now become a book! Check out <a href="https://llm-book.com">LLM-book.com</a> which contains (Chapter 3) an updated and expanded version of this post speaking about the latest Transformer models and how they've evolved in the seven years since the original Transformer (like Multi-Query Attention and RoPE Positional embeddings).
+  <td style="vertical-align: middle"><b>Update:</b> This post has now become a book! Check out <a href="https://llm-book.com">LLM-book.com</a> which contains (Chapter 3) an updated and expanded version of this post speaking about the latest Transformer models and how they've evolved in the seven years since the original Transformer (like Multi-Query Attention and RoPE Positional embeddings).
   </td>
  </tr>
 </table>
