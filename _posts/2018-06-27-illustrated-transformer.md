@@ -1,4 +1,4 @@
----
+
 layout: prediction_post
 published: True
 title: The Illustrated Transformer
@@ -13,6 +13,18 @@ title: The Illustrated Transformer
 <br />
 <span class="discussion">Featured in courses at <a href="https://web.stanford.edu/class/cs224n/">Stanford</a>, <a href="https://scholar.harvard.edu/binxuw/classes/machine-learning-scratch/materials/transformers">Harvard</a>, <a href="https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/d39a6eed387ee90b1f72a01949c35c7b_MIT6_S897S19_lec8.pdf">MIT</a>, <a href="https://www.cs.princeton.edu/courses/archive/fall22/cos597G/">Princeton</a>, <a href="https://www.cs.cmu.edu/~leili/course/mldl22w/14-Transformer.pdf">CMU</a> and others</span>
 
+<table>
+ <tr>
+  <td>
+   
+<a href="https://www.llm-book.com"><img src="https://github.com/user-attachments/assets/a471dfff-00cc-4cb4-8df5-123e195bcc71" width="200" /></a>
+  </td>
+  <td>
+   
+**Update:** This post has now become a book! Check out <a href="https://llm-book.com">LLM-book.com</a> which contains (Chapter 3) an updated and expanded version of this post speaking about the latest Transformer models and how they've evolved in the seven years since the original Transformer (like Multi-Query Attention and RoPE Positional embeddings).
+  </td>
+ </tr>
+</table>
 
 In the [previous post, we looked at Attention](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) -- a ubiquitous method in modern deep learning models. Attention is a concept that helped improve the performance of neural machine translation applications. In this post, we will look at **The Transformer** -- a model that uses attention to boost the speed with which these models can be trained. The Transformer outperforms the Google Neural Machine Translation model in specific tasks. The biggest benefit, however, comes from how The Transformer lends itself to parallelization. It is in fact Google Cloud's recommendation to use The Transformer as a reference model to use their [Cloud TPU](https://cloud.google.com/tpu/) offering. So let's try to break the model apart and look at how it functions.
 
